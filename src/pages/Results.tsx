@@ -32,14 +32,16 @@ const Results = () => {
   };
 
   return (
-    <section className="relative flex h-screen w-full flex-col items-center justify-center">
+    <section className="relative flex h-screen w-full flex-col items-center justify-center p-5">
       {/* background */}
       <div className="pointer-events-none absolute inset-x-0 h-full w-full [mask-image:linear-gradient(0deg,transparent,black)]">
         <div className="pattern -mt-1 h-full w-full opacity-10"></div>
       </div>
       <img src="./logo.png" className="aspect-square w-32 bg-cover" alt="" />
-      <h1 className="text-4xl font-medium text-gray-800">லயத்துச் சிறகுகள்</h1>
-      <p className="mt-2 text-xs uppercase tracking-wider text-gray-600">
+      <h1 className="text-center text-4xl font-medium text-gray-800">
+        லயத்துச் சிறகுகள்
+      </h1>
+      <p className="mt-3 text-center text-xs uppercase tracking-wider text-gray-600">
         Theivakantha Tamil Vidyalayam 2023
       </p>
 
@@ -49,7 +51,7 @@ const Results = () => {
           className="mt-10 flex w-full max-w-lg flex-col items-center justify-center gap-3 md:flex-row"
         >
           <Input
-            className="w-full bg-white"
+            className="w-full bg-white/10"
             placeholder="Index Number"
             value={indexNumber}
             onChange={(e) => setIndexNumber(e.target.value)}
