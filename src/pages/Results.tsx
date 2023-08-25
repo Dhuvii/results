@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
-import Input from "../components/inputs/Input";
+import { useState } from "react";
 import { Button } from "../components/Button";
 import Table from "../components/Table";
+import Input from "../components/inputs/Input";
 import useResultStore from "../store/resultStore";
 
 const Results = () => {
