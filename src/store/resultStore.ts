@@ -3,7 +3,6 @@ import { create } from "zustand";
 type Result = {
   index: string;
   name: string;
-  school: string;
   subjects: {
     name: string;
     grade: "A" | "B" | "C" | "D";
@@ -19,7 +18,6 @@ const useResultStore = create<ResultState>()(() => ({
     {
       index: "123",
       name: "Rishaban",
-      school: "Theivakandha Tamil Vidyalam",
       subjects: [
         {
           name: "Mathematics",
@@ -38,7 +36,6 @@ const useResultStore = create<ResultState>()(() => ({
     {
       index: "124",
       name: "Jensan",
-      school: "Theivakandha Tamil Vidyalam",
       subjects: [
         {
           name: "Mathematics",

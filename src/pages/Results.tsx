@@ -42,7 +42,7 @@ const Results = () => {
         className="aspect-square w-32 rounded-md bg-cover"
         alt=""
       />
-      <h1 className="text-center text-4xl font-medium text-gray-800">
+      <h1 className="mt-3 text-center text-4xl font-medium text-gray-800">
         லயத்துச் சிறகுகள்
       </h1>
       <p className="mt-3 text-center text-xs uppercase tracking-wider text-gray-600">
@@ -92,7 +92,6 @@ const Results = () => {
             <h3 className="text-4xl font-medium text-gray-800">
               {student.name}
             </h3>
-            <p className="text-base text-gray-600">{student.school}</p>
           </div>
         )}
         {/* table */}
