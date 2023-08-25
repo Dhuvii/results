@@ -42,7 +42,7 @@ const Results = () => {
         லயத்துச் சிறகுகள்
       </h1>
       <p className="mt-3 text-center text-xs uppercase tracking-wider text-gray-600">
-        Theivakantha Tamil Vidyalayam 2023
+        Theivakantha Tamil Vidyalayam <br /> 2023
       </p>
 
       {!formattedResults && (
