@@ -37,7 +37,11 @@ const Results = () => {
       <div className="pointer-events-none absolute inset-x-0 h-full w-full [mask-image:linear-gradient(0deg,transparent,black)]">
         <div className="pattern -mt-1 h-full w-full opacity-10"></div>
       </div>
-      <img src="./logo.png" className="aspect-square w-32 bg-cover" alt="" />
+      <img
+        src="./logo.png"
+        className="aspect-square w-32 rounded-md bg-cover"
+        alt=""
+      />
       <h1 className="text-center text-4xl font-medium text-gray-800">
         லயத்துச் சிறகுகள்
       </h1>
