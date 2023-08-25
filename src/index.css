@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Toastify__toast-container {
+  @apply bg-transparent p-3 md:p-0  !important;
+}
+
+.Toastify__toast {
+  @apply mb-3 rounded-2xl bg-transparent p-0 shadow-lg !important;
+}
+
+.Toastify__toast-body {
+  @apply bg-transparent p-0 !important;
+}
+
+.Toastify__close-button {
+  @apply bg-transparent p-2 hover:text-gray-500 !important;
+}
+
+@layer base {
+  .disable-highlight {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* body {
+    background-color: rgba(27, 30, 35, 1);
+  } */
+
+  .pattern {
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='126' height='84' viewBox='0 0 126 84'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23383739' fill-opacity='0.4'%3E%3Cpath d='M126 83v1H0v-2h40V42H0v-2h40V0h2v40h40V0h2v40h40V0h2v83zm-2-1V42H84v40h40zM82 42H42v40h40V42zm-50-6a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM8 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm96 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm-42 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm30-12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM20 54a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm12 24a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM8 54a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm24 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM8 78a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm12 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm54 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM50 54a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm24 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM50 78a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm54-12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm12 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM92 54a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm24 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM92 78a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm24-42a4 4 0 1 1 0-8 4 4 0 0 1 0 8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  .dark-theme {
+    --primary-bg: 21, 22, 25;
+    --secondary-bg: 27, 30, 35;
+    --navlink-bg-selected: 42, 44, 49;
+    --navlink-ring-color: 42, 44, 49;
+    --navlink-ring-offset-color: 21, 22, 25;
+    --navlink-text-selected: 60, 130, 249;
+  }
+
+  .btn-primary {
+    --btn-bg-color: 37, 99, 235;
+    --btn-text-color: 255, 255, 255;
+    --btn-spinner-color: 255, 255, 255;
+    --btn-bg-hover-color: 59, 130, 246;
+    --btn-bg-active-color: 59, 130, 246;
+    --btn-ring-color: 59, 130, 246;
+    --btn-disabled-color: 224, 242, 254;
+  }
+
+  .btn-secondary {
+    --btn-bg-color: 209, 213, 219;
+    --btn-text-color: 31, 41, 55;
+    --btn-spinner-color: 31, 41, 55;
+    --btn-bg-hover-color: 229, 231, 235;
+    --btn-bg-active-color: 229, 231, 235;
+    --btn-ring-color: 229, 231, 235;
+    --btn-disabled-color: 229, 231, 235;
+  }
+
+  .btn-unstyled {
+    --btn-bg-color: 255, 255, 255;
+    --btn-text-color: 0, 0, 0;
+    --btn-spinner-color: 31, 41, 55;
+    --btn-bg-hover-color: 229, 231, 235;
+    --btn-bg-active-color: 229, 231, 235;
+    --btn-ring-color: 55, 65, 81;
+    --btn-disabled-color: 229, 231, 235;
+  }
+}
