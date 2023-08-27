@@ -92,6 +92,12 @@ const Results = () => {
             <h3 className="text-4xl font-medium text-gray-800">
               {student.name}
             </h3>
+            <h3 className="text-base font-medium uppercase tracking-wide text-gray-800">
+              Grade {student.grade}
+            </h3>
+            <h3 className="text-base font-medium uppercase tracking-wide text-gray-800">
+              Rank {student.rank}
+            </h3>
           </div>
         )}
         {/* table */}
